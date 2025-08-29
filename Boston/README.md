@@ -7,7 +7,7 @@ This project predicts housing prices in Boston using a linear regression model b
 
 ---
 
-## 🚀 Features Used
+## 🚀 Features Used in the BaseModel.ipynb are three while in other models All deatures we're used to get the most out of our models.
 
 - **RM**: Average number of rooms per dwelling  
 - **LSTAT**: Percentage of lower status population  
@@ -46,7 +46,13 @@ The dataset includes multiple features describing various aspects of the houses 
 
 📊 Results
 
-The linear regression model achieved an R² score of 0.68 and MSE of 28.67 on the test data.
+<p>The BaseModel achieved an R² score of 0.68 and MSE of 28.67 on the test data.</p>
+<p>The Model_1 achieved an R² score of 0.739 and MSE of 23.41 on the test data.</p>
+<p>The Model_2 achieved an R² score of 0.85 and MSE of 13.67 on the test data.</p>
+<p>The Model_3 achieved an R² score of 0.90 and MSE of 8.48 on the test data.</p>
+<p>The Model_4 achieved an R² score of 0.67 and MSE of 22.66 on the test data.</p>
+<p>The Model_5 achieved an R² score of 0.80 and MSE of 14.91 on the test data.</p>
+<p>The Model_6 achieved an R² score of 0.95 and MSE of 4.34 on the test data.</p>
 
 Key coefficients:
 
@@ -70,10 +76,17 @@ ML-Projects/
     │   ├── train.csv
     │   └── test.csv
     ├── notebooks/
-    │   └── Boston_Housing_Prediction.ipynb
+    │   |--  BaseModel.ipynb
+    |   |--  Model_1.ipynb
+    |   |--  Model_2.ipynb
+    |   |--  Model_3.ipynb
+    |   |--  Model-4.ipynb
+    |   |--  Model_5.ipynb
+    |   |____Model_6.ipynb
     ├── requirements.txt
     └── README.md
 
 📞 Contact
 Created by Ainebyona Abubaker
 GitHub: kenbaker-gif
+Email: ainebyonabubaker@proton.me
