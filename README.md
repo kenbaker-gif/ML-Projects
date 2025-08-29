@@ -2,7 +2,7 @@
 *A collection of projects to practice and showcase my AI and Machine Learning skills*  
 
 ![Python](https://img.shields.io/badge/python-3.11-blue)
-![License](https://img.shields.io/badge/license-MIT-green)
+[![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 
 ---
 
