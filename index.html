@@ -8,32 +8,44 @@
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
 </head>
 <body>
-  <header>
-    <h1>ML Projects Portfolio</h1>
-    <p>Explore all Boston ML notebooks interactively and download them from GitHub.</p>
-  </header>
 
-  <main>
-    <section class="cards">
+<header>
+  <h1>ML Projects Portfolio</h1>
+  <p>Explore interactive notebooks, datasets, and ML demos from my Boston projects.</p>
+</header>
 
-      <!-- Boston Notebooks Folder Card -->
-      <div class="card">
-        <div class="card-icon"><i class="fas fa-database"></i></div>
-        <h2>Boston Notebooks</h2>
-        <p>Explore all Boston ML notebooks interactively in Binder.</p>
-        <div class="card-buttons">
-          <a href="https://mybinder.org/v2/gh/kenbaker-gif/ML-Projects/HEAD?filepath=Boston/Notebooks/" 
-             class="btn" target="_blank">🚀 Binder</a>
-          <a href="https://github.com/kenbaker-gif/ML-Projects/tree/main/Boston/Notebooks" 
-             class="btn secondary" target="_blank">📂 GitHub</a>
-        </div>
+<main>
+  <section class="cards">
+
+    <div class="card">
+      <div class="card-icon"><i class="fas fa-database"></i></div>
+      <h2>Boston Housing Regression</h2>
+      <p>Explore regression models predicting Boston housing prices.</p>
+      <div class="card-buttons">
+        <a href="https://mybinder.org/v2/gh/kenbaker-gif/ML-Projects/HEAD?filepath=Boston/Notebooks/" 
+           class="btn" target="_blank">🚀 Binder</a>
+        <a href="https://github.com/kenbaker-gif/ML-Projects/tree/main/Boston/Notebooks/" 
+           class="btn secondary" target="_blank">📂 GitHub</a>
       </div>
+    </div>
 
-    </section>
-  </main>
+    <!-- Add more cards here -->
 
-  <footer>
-    <p>&copy; 2025 Ainebyona Abubaker - ML Projects</p>
-  </footer>
+  </section>
+
+  <div class="note">
+    <h3>Note on Running Notebooks</h3>
+    <p>
+      The Boston ML notebooks are designed to run locally on your system. Dataset paths may need adjustment depending on your folder structure. 
+      If using Binder or a cloud environment, update the <code>train.csv</code> and <code>test.csv</code> paths to match the <code>data/</code> folder location.
+    </p>
+    <p>Focus is on showcasing ML workflow, feature engineering, and modeling — not pre-configured paths.</p>
+  </div>
+</main>
+
+<footer>
+  <p>&copy; 2025 Ainebyona Abubaker - ML Projects</p>
+</footer>
+
 </body>
 </html>
