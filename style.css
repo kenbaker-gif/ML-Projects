@@ -89,7 +89,7 @@ header p {
   box-shadow: 0 10px 20px rgba(0,0,0,0.15);
 }
 
-.note {
+.section.note {
   background-color: #e8f0fe;
   border-left: 5px solid #1a73e8;
   padding: 20px;
@@ -99,15 +99,16 @@ header p {
   font-style: italic;
   color: #202124;
 }
-.note h2 {
+
+.section.note h2 {
   color: #1a73e8;
   font-weight: 600;
 }
-.note p {
+
+.section.note p {
   line-height: 1.6;
   margin-top: 10px;
 }
-
 
 /* --- Footer --- */
 footer {
