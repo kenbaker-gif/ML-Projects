@@ -53,6 +53,9 @@ The dataset includes multiple features describing various aspects of the houses 
 <p>The Model_4 achieved an R² score of 0.67 and MSE of 22.66 on the test data.</p>
 <p>The Model_5 achieved an R² score of 0.80 and MSE of 14.91 on the test data.</p>
 <p>The Model_6 achieved an R² score of 0.95 and MSE of 4.34 on the test data.</p>
+<p>The Model_7 achieved an R² score of 0.92 and MSE of 6.69 on the test data.</p>
+<p>The Model_8 achieved an R² score of 0.92 and MSE of 6.65 on the test data.</p>
+<p>The Model_9 achieved an R² score of 0.91 and MSE of 7.96 on the test data.</p>
 
 Key coefficients:
 
