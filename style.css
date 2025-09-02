@@ -89,6 +89,26 @@ header p {
   box-shadow: 0 10px 20px rgba(0,0,0,0.15);
 }
 
+.note {
+  background-color: #e8f0fe;
+  border-left: 5px solid #1a73e8;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 800px;
+  border-radius: 8px;
+  font-style: italic;
+  color: #202124;
+}
+.note h2 {
+  color: #1a73e8;
+  font-weight: 600;
+}
+.note p {
+  line-height: 1.6;
+  margin-top: 10px;
+}
+
+
 /* --- Footer --- */
 footer {
   text-align: center;
@@ -100,3 +120,4 @@ footer {
   box-shadow: 0 -2px 6px rgba(0,0,0,0.03);
   margin-top: 50px;
 }
+
