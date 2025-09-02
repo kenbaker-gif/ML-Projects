@@ -3,24 +3,49 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ML Project Downloads</title>
+  <title>My ML Project</title>
   <style>
-    body { font-family: Arial, sans-serif; text-align: center; background: #f4f4f9; padding: 40px; }
-    h1 { color: #222; }
+    body { font-family: Arial, sans-serif; background: #f4f4f9; padding: 40px; color: #222; }
+    h1 { text-align: center; }
+    h2 { margin-top: 40px; }
+    p { max-width: 700px; margin: auto; line-height: 1.6; }
+    .section { text-align: center; margin-top: 30px; }
     .btn {
       display: inline-block; margin: 10px; padding: 12px 20px;
       background: #0078d7; color: white; text-decoration: none;
       border-radius: 8px; font-size: 16px;
     }
     .btn:hover { background: #005bb5; }
+    footer { margin-top: 50px; text-align: center; font-size: 14px; color: #555; }
   </style>
 </head>
 <body>
-  <h1>Welcome to My ML Project Page</h1>
-  <p>Click below to download files:</p>
-  
-  <a href="files/model.pkl" class="btn" download>🤖 Download Model</a>
-  <a href="files/dataset.csv" class="btn" download>📊 Download Dataset</a>
-  <a href="files/report.pdf" class="btn" download>📄 Download Report</a>
+
+  <h1>My ML Project</h1>
+  <p style="text-align:center;">Predicting house prices using machine learning models</p>
+
+  <div class="section">
+    <h2>Project Overview</h2>
+    <p>This project uses regression models to predict house prices based on various features like location, size, and amenities. The dataset is cleaned, preprocessed, and split into training and testing sets to evaluate model performance.</p>
+  </div>
+
+  <div class="section">
+    <h2>Downloads</h2>
+    <a href="files/model.pkl" class="btn" download>🤖 Download Model</a>
+    <a href="files/dataset.csv" class="btn" download>📊 Download Dataset</a>
+    <a href="files/report.pdf" class="btn" download>📄 Download Report</a>
+  </div>
+
+  <div class="section">
+    <h2>Notebooks & Demos</h2>
+    <a href="https://colab.research.google.com/drive/your-notebook-id" class="btn" target="_blank">📓 Open Notebook (Colab)</a>
+    <a href="https://mybinder.org/v2/gh/username/repo/HEAD?filepath=notebook.ipynb" class="btn" target="_blank">🚀 Launch Notebook (Binder)</a>
+  </div>
+
+  <footer>
+    © 2025 Ainebyona Abubaker • <a href="https://github.com/kenbaker-gif" target="_blank">GitHub</a>
+  </footer>
+
 </body>
 </html>
+
