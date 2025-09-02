@@ -1,51 +1,113 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ML Projects - Boston Portfolio</title>
-  <link rel="stylesheet" href="style.css">
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
-</head>
-<body>
-  <header>
-    <h1>ML Projects Portfolio</h1>
-    <p>Explore interactive notebooks, datasets, and ML demos from my Boston projects.</p>
-  </header>
+/* --- Global Styles --- */
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  background: linear-gradient(to bottom, #f0f4f8, #f9f9f9);
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
 
-  <main>
-    <section class="cards">
-      <!-- Project Card Example -->
-      <div class="card">
-        <div class="card-icon"><i class="fas fa-database"></i></div>
-        <h2>Boston Housing Regression</h2>
-        <p>Explore regression models predicting Boston housing prices.</p>
-        <div class="card-buttons">
-          <a href="https://mybinder.org/v2/gh/kenbaker-gif/ML-Projects/HEAD?filepath=Boston/Notebooks/BostonHousing.ipynb" 
-             class="btn" target="_blank">🚀 Binder</a>
-          <a href="https://github.com/kenbaker-gif/ML-Projects/blob/main/Boston/Notebooks/BostonHousing.ipynb" 
-             class="btn secondary" target="_blank">📂 GitHub</a>
-        </div>
-      </div>
+/* --- Header --- */
+header {
+  text-align: center;
+  padding: 40px 20px;
+}
 
-      <div class="card">
-        <div class="card-icon"><i class="fas fa-chart-line"></i></div>
-        <h2>Data Cleaning & Visualization</h2>
-        <p>Preprocessing and visualizing Boston housing data.</p>
-        <div class="card-buttons">
-          <a href="https://mybinder.org/v2/gh/kenbaker-gif/ML-Projects/HEAD?filepath=Boston/Notebooks/DataCleaning.ipynb" 
-             class="btn" target="_blank">🚀 Binder</a>
-          <a href="https://github.com/kenbaker-gif/ML-Projects/blob/main/Boston/Notebooks/DataCleaning.ipynb" 
-             class="btn secondary" target="_blank">📂 GitHub</a>
-        </div>
-      </div>
+header h1 {
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: #007bff;
+}
 
-      <!-- Add more cards as needed -->
-    </section>
-  </main>
+header p {
+  font-size: 1.2rem;
+  color: #555;
+  margin-top: 10px;
+}
 
-  <footer>
-    <p>&copy; 2025 Ainebyona Abubaker - ML Projects</p>
-  </footer>
-</body>
-</html>
+/* --- Cards Container --- */
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+  padding: 20px;
+}
+
+/* --- Card Styles --- */
+.card {
+  background-color: #fff;
+  border-radius: 15px;
+  padding: 25px;
+  width: 280px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: center;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 14px 28px rgba(0,0,0,0.15);
+}
+
+/* --- Card Icon --- */
+.card-icon {
+  font-size: 3rem;
+  color: #007bff;
+  margin-bottom: 15px;
+}
+
+/* --- Card Headings & Text --- */
+.card h2 {
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+  color: #222;
+}
+
+.card p {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+/* --- Buttons --- */
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  padding: 12px 25px;
+  margin: 5px 5px 0 5px;
+  border-radius: 8px;
+  background: linear-gradient(135deg, #007bff, #00c6ff);
+  color: #fff;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.btn.secondary {
+  background: #555;
+}
+
+.btn:hover {
+  transform: translateY(-3px) scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+
+/* --- Footer --- */
+footer {
+  text-align: center;
+  padding: 25px;
+  font-size: 0.95rem;
+  color: #777;
+  background-color: #fff;
+  border-top: 1px solid #e0e0e0;
+  box-shadow: 0 -2px 6px rgba(0,0,0,0.03);
+  margin-top: 50px;
+}
+
+/* --- Responsive --- */
+@media (max-width: 900px) {
+  .cards {
+    flex-direction: column;
+    align-items: center;
+  }
+}
