@@ -1,0 +1,7 @@
+numpy==1.25.0
+pandas>=2.1
+scikit-learn
+matplotlib
+xgboost
+catboost
+lightgbm
